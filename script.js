@@ -1,5 +1,5 @@
 Document. addEventListener('DDMContentLoaded' , function (){
-    const aumentaFonteBotao = documente.getElementeById ('aumenta-fonte')
+    const aumentaFonteBotao = documente.getElementeById ('aumentar-fonte')
 
     let tamanhoAtualFonte = 1;
 
