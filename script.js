@@ -1,15 +1,22 @@
-document.addEventListener('DDMContentLoaded' , function (){
-    const aumentaFonteBotao = documente.getElementeById ('aumentar-fonte');
-    const diminuiFonteBotao = documente.getElementeById ('diminuir-fonte');
+document.addEventListener('DOMContentLoaded', function () {
+    const aumentaFonteBotao = document.getElementById('aumentar-fonte');
+    const diminuiFonteBotao = document.getElementById('diminuir-fonte');
 
     let tamanhoAtualFonte = 1;
 
-    aumentaFonteBotao.addEventeListener('clik' , function(){
-        tamanhoAtualFonte += 0.1;
-        document.body.style.font.Size = `${tamanhoAtualFonte}rem`;
+    aumentaFonteBotao.addEventListener('click', function () {
+         tamanhoAtualFonte += 0.1;
+         document.body.style.fontSize = `${tamanhoAtualFonte}rem`;
     });
-    diminuiFonteBotao.addEventeListener('clik' , function(){
+
+    diminuiFonteBotao.addEventListener('click', function () {
         tamanhoAtualFonte -= 0.1;
-        document.body.style.font.Size = `${tamanhoAtualFonte}rem`;
-    });
+        document.body.style.fontSize = `${tamanhoAtualFonte}rem`;
+   });
+
+
+
+
+
 });
+
