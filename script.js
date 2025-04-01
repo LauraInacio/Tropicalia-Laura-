@@ -1,5 +1,6 @@
 document.addEventListener('DDMContentLoaded' , function (){
     const aumentaFonteBotao = documente.getElementeById ('aumentar-fonte');
+    const diminuiFonteBotao = documente.getElementeById ('diminuir-fonte');
 
     let tamanhoAtualFonte = 1;
 
