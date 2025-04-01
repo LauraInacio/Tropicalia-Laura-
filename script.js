@@ -8,4 +8,8 @@ document.addEventListener('DDMContentLoaded' , function (){
         tamanhoAtualFonte += 0.1;
         document.body.style.font.Size = `${tamanhoAtualFonte}rem`;
     });
+    diminuiFonteBotao.addEventeListener('clik' , function(){
+        tamanhoAtualFonte -= 0.1;
+        document.body.style.font.Size = `${tamanhoAtualFonte}rem`;
+    });
 });
