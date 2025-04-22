@@ -7,6 +7,9 @@
     --alto-contraste-texto: hsl(0, 0%, 100%);
     --alto-contraste-link: #ee97b4;
 }
+.cor-botao{
+    background-color: aqua;
+}
 
 body {
     font-size: 1rem;
