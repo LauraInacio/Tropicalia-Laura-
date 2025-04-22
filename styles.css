@@ -8,7 +8,7 @@
     --alto-contraste-link: #ee97b4;
 }
 .cor-botao{
-    background-color: aqua;
+    bottom: var(--alto-contraste-link);
 }
 
 body {
